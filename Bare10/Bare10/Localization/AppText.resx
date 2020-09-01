@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="achievements_tab_item_title" xml:space="preserve">
+    <value>Prestasjoner</value>
+  </data>
+  <data name="achievement_daily_goal_achieved_one_month_description" xml:space="preserve">
+    <value>Nå de daglige målene dine i 30 sammenhengende dager.</value>
+    <comment>ok</comment>
+  </data>
+  <data name="achievement_daily_goal_achieved_one_month_description_achieved" xml:space="preserve">
+    <value>Du har nådd dine daglige mål hver dag i 30 dager!</value>
+    <comment>ok</comment>
+  </data>
+  <data name="achievement_daily_goal_achieved_one_month_title" xml:space="preserve">
+    <value>Platinaprisen</value>
+    <comment>ok</comment>
+  </data>
+  <data name="achievement_daily_goal_achieved_one_week_description" xml:space="preserve">
+    <value>Nå dine daglige mål hver dag i ei uke. </value>
+    <comment>ok</comment>
+  </data>
+  <data name="achievement_daily_goal_achieved_one_week_description_achieved" xml:space="preserve">
+    <value>Du har nådd dine daglige mål hver dag i en hel uke!</value>
+    <comment>ok</comment>
+  </data>
+  <data name="achievement_daily_goal_achieved_one_week_title" xml:space="preserve">
+    <value>Bronsekampen</value>
+    <comment>ok</comment>
+  </data>
+  <data name="achievement_daily_goal_achieved_three_weeks_description" xml:space="preserve">
+    <value>Er du klar for å nå målene dine i hele tre uker på rad?</value>
+    <comment>ok</comment>
+  </data>
+  <data name="achievement_daily_goal_achieved_three_weeks_description_achieved" xml:space="preserve">
+    <value>Du har oppnådd målene dine tre uker på rad!</value>
+    <comment>ok</comment>
+  </data>
+  <data name="achievement_daily_goal_achieved_three_weeks_title" xml:space="preserve">
+    <value>Gullkampen</value>
+    <comment>ok</comment>
+  </data>
+  <data name="achievement_daily_goal_achieved_two_weeks_description" xml:space="preserve">
+    <value>Oppnå ditt daglige mål hver dag i to uker</value>
+    <comment>ok</comment>
+  </data>
+  <data name="achievement_daily_goal_achieved_two_weeks_description_achieved" xml:space="preserve">
+    <value>Du har oppnådd målene dine hver dag i to uker på rad!</value>
+    <comment>ok</comment>
+  </data>
+  <data name="achievement_daily_goal_achieved_two_weeks_title" xml:space="preserve">
+    <value>Sølvkampen</value>
+    <comment>ok</comment>
+  </data>
+  <data name="achievement_first_ten_description" xml:space="preserve">
+    <value>Fullfør dine første 10 minutter i friskt tempo.</value>
+    <comment>ok</comment>
+  </data>
+  <data name="achievement_first_ten_description_achieved" xml:space="preserve">
+    <value>Du har fullført dine første 10 minutter i friskt tempo!</value>
+    <comment>ok</comment>
+  </data>
+  <data name="achievement_first_ten_title" xml:space="preserve">
+    <value>Du er i gang</value>
+  </data>
+  <data name="achievement_set_harder_goal_description" xml:space="preserve">
+    <value>Gjør deg klar for neste nivå, og legg til 10 minutter til.. </value>
+    <comment>ok</comment>
+  </data>
+  <data name="achievement_set_harder_goal_description_achieved" xml:space="preserve">
+    <value>Du har økt ditt daglige mål!</value>
+    <comment>ok</comment>
+  </data>
+  <data name="achievement_set_harder_goal_title" xml:space="preserve">
+    <value>Nye mål</value>
+    <comment>ok</comment>
+  </data>
+  <data name="brisk_walk" xml:space="preserve">
+    <value>Frisk gange</value>
+    <comment>Brukes på historikksiden</comment>
+  </data>
+  <data name="goals_page_title" xml:space="preserve">
+    <value>Sett deg et mål!</value>
+    <comment>ok</comment>
+  </data>
+  <data name="goals_tab_item_title" xml:space="preserve">
+    <value>Mål</value>
+    <comment>ok</comment>
+  </data>
+  <data name="goal_1x10_description" xml:space="preserve">
+    <value>10 minutter frisk gange hver dag, det skal jeg klare!</value>
+    <comment>ok</comment>
+  </data>
+  <data name="goal_1x10_title" xml:space="preserve">
+    <value>1 x 10 min</value>
+    <comment>ok</comment>
+  </data>
+  <data name="goal_2x10_description" xml:space="preserve">
+    <value>Ingen sak, 2x10 minutter har jeg inne!</value>
+    <comment>ok</comment>
+  </data>
+  <data name="goal_2x10_title" xml:space="preserve">
+    <value>2 x 10 min</value>
+    <comment>ok</comment>
+  </data>
+  <data name="goal_3x10_description" xml:space="preserve">
+    <value>Jeg tar den helt ut, og satser på 3 x 10 minutter!</value>
+    <comment>ok</comment>
+  </data>
+  <data name="goal_3x10_title" xml:space="preserve">
+    <value>3 x 10 min</value>
+    <comment>ok</comment>
+  </data>
+  <data name="history_tab_item_title" xml:space="preserve">
+    <value>Hjem</value>
+    <comment>ok</comment>
+  </data>
+  <data name="profile_tab_item_title" xml:space="preserve">
+    <value>Profil</value>
+    <comment>ok</comment>
+  </data>
+  <data name="regular_walk" xml:space="preserve">
+    <value>Rolig gange</value>
+    <comment>Brukes på historikksiden</comment>
+  </data>
+  <data name="onboarding_entry_text" xml:space="preserve">
+    <value>Fornavn eller kallenavn.</value>
+    <comment>ok</comment>
+  </data>
+  <data name="onboarding_entry_title" xml:space="preserve">
+    <value>Hva kaller vi deg?</value>
+    <comment>ok</comment>
+  </data>
+  <data name="onboarding_first_text" xml:space="preserve">
+    <value>Gå 10 minutter i friskt tempo hver dag.</value>
+    <comment>ok</comment>
+  </data>
+  <data name="onboarding_first_title" xml:space="preserve">
+    <value>Gi kroppen din nytt liv!</value>
+    <comment>ok</comment>
+  </data>
+  <data name="onboarding_last_text" xml:space="preserve">
+    <value>Bare husk å ha mobilen med deg i lomma.</value>
+    <comment>ok</comment>
+  </data>
+  <data name="onboarding_last_title" xml:space="preserve">
+    <value>Flott! Klar, ferdig, GÅ! </value>
+    <comment>ok</comment>
+  </data>
+  <data name="onboarding_terms_accept" xml:space="preserve">
+    <value>Jeg godkjenner </value>
+    <comment>ok</comment>
+  </data>
+  <data name="onboarding_terms_text" xml:space="preserve">
+    <value>Gå10 trenger tillatelse til å</value>
+    <comment>ok</comment>
+  </data>
+  <data name="onboarding_terms_title" xml:space="preserve">
+    <value>Først…</value>
+    <comment>ok</comment>
+  </data>
+  <data name="onboarding_last_watch_text" xml:space="preserve">
+    <value>Har du smartklokke, registreres all aktivitet automatisk i appen. </value>
+    <comment>ok</comment>
+  </data>
+  <data name="onboarding_term_1" xml:space="preserve">
+    <value>Registrere aktiviteten din</value>
+    <comment>ok</comment>
+  </data>
+  <data name="onboarding_term_2" xml:space="preserve">
+    <value>Gi deg tips og påminnelser</value>
+    <comment>ok</comment>
+  </data>
+  <data name="onboarding_term_3" xml:space="preserve">
+    <value>Vite hvor du er</value>
+    <comment>ok</comment>
+  </data>
+  <data name="terms_1_0_text" xml:space="preserve">
+    <value>Helsedirektoratet
+Vitaminveien 4
+0485 Oslo</value>
+    <comment>ok</comment>
+  </data>
+  <data name="terms_1_0_title" xml:space="preserve">
+    <value>App-eier (dataeier)</value>
+    <comment>ok</comment>
+  </data>
+  <data name="terms_2_0_text" xml:space="preserve">
+    <value>Appen registrerer daglige minutter med frisk gange og gange totalt. Din registrerte aktivitet vises sammen med ditt daglige skritt-mål. Du vil motta daglige motivasjonsmeldinger basert på målet du har satt og hvordan du ligger an.</value>
+    <comment>ok</comment>
+  </data>
+  <data name="terms_2_0_title" xml:space="preserve">
+    <value>Visualisering av dine aktivitetsdata</value>
+    <comment>ok</comment>
+  </data>
+  <data name="terms_3_0_text" xml:space="preserve">
+    <value>Som de fleste apper har vi informasjonskapsler. Formålet er å kunne gi en bedre brukeropplevelse basert på hvordan appen brukes. Vi sparer ikke på andre data enn det du selv har gitt (fornavn). Det er ingen personlige data lagret i appen. I tillegg benytter vi informasjonskapsler for å effektivisere annonseringen av appen, og måle hvor brukerne kommer fra. Våre data blir ikke delt med andre tredjepartsaktører utover det vi beskriver under.
+
+For å analysere bruken av appen benytter vi oss av ulike analyseverktøy som beskrevet i punktene 3.1, 3.2 og 3.3.</value>
+    <comment>ok</comment>
+  </data>
+  <data name="terms_3_0_title" xml:space="preserve">
+    <value>Informasjonskapsler</value>
+    <comment>ok</comment>
+  </data>
+  <data name="terms_3_1_text" xml:space="preserve">
+    <value>Vi benytter AppCenter (https://appcenter.ms) for å måle hvilke deler av appen som brukes. Vi bruker denne innsikten til å oppgradere appen for å gi brukeren et bedre verktøy.</value>
+    <comment>ok</comment>
+  </data>
+  <data name="terms_3_1_title" xml:space="preserve">
+    <value>Appsenter</value>
+    <comment>ok</comment>
+  </data>
+  <data name="terms_3_2_text" xml:space="preserve">
+    <value>Adform (https://adform.com) er et annonsestyringsverktøy vi bruker for å promotere appen og som gir oss innsikt i hvor brukeren kommer fra.</value>
+    <comment>ok</comment>
+  </data>
+  <data name="terms_3_2_title" xml:space="preserve">
+    <value>Adform</value>
+    <comment>ok</comment>
+  </data>
+  <data name="terms_3_3_text" xml:space="preserve">
+    <value>Vi promoterer appen gjennom Facebook. På samme måte som Adform gir Facebook analytics oss innsikt i bruken og nedlasting av appen (https://facebook.com/about/privacy).</value>
+    <comment>ok</comment>
+  </data>
+  <data name="terms_3_3_title" xml:space="preserve">
+    <value>Facebook analytics</value>
+    <comment>ok</comment>
+  </data>
+  <data name="terms_final_text" xml:space="preserve">
+    <value>Har du spørsmål vedrørende personvern eller om denne appen vennligst ta kontakt ved å sende e-post til: &lt;u&gt;xx@epost.no&lt;/u&gt;</value>
+  </data>
+  <data name="achievement_daily_goal_achieved_one_month_health_description" xml:space="preserve">
+    <value>Fantastisk! 30 hele dager kroppen din takker deg for! Unn deg en premie!</value>
+    <comment>Beskriver helseeffekten av å ha klart achievement</comment>
+  </data>
+  <data name="achievement_daily_goal_achieved_one_week_health_description" xml:space="preserve">
+    <value>Rutiner spiser slapp viljestyrke til frokost! Allerede nå skjer det positive forandringer i kroppen din – og du kjenner kanskje til og med at hodet kjennes litt "lettere"?</value>
+    <comment>Beskriver helseeffekten av å ha klart achievement</comment>
+  </data>
+  <data name="achievement_daily_goal_achieved_three_weeks_health_description" xml:space="preserve">
+    <value>Gratulerer! Nå er du på et nivå som øker sjansen for at du holder deg frisk og glad! Du gjør deg selv en fantastisk tjeneste!</value>
+    <comment>Beskriver helseeffekten av å ha klart achievement</comment>
+  </data>
+  <data name="achievement_daily_goal_achieved_two_weeks_health_description" xml:space="preserve">
+    <value>Snart er dette like selvsagt som å pusse tenner – og kanskje merker du allerede at dette er noe du har godt av?</value>
+    <comment>Beskriver helseeffekten av å ha klart achievement</comment>
+  </data>
+  <data name="achievement_first_ten_health_description" xml:space="preserve">
+    <value>Da er du i gang! Hvert eneste minutt er bedre enn ingenting – og hjertet ditt elsker at du får litt puls!</value>
+    <comment>Beskriver helseeffekten av å ha klart achievement</comment>
+  </data>
+  <data name="achievement_set_harder_goal_health_description" xml:space="preserve">
+    <value>Bra innstilling! 10 er bra – 2x10 er dobbelt så bra! Du er på vei mot et nytt og bedre liv!</value>
+    <comment>Beskriver helseeffekten av å ha klart achievement</comment>
+  </data>
+  <data name="achievement_time_received" xml:space="preserve">
+    <value>Mottatt</value>
+  </data>
+  <data name="history_todays_goal_title" xml:space="preserve">
+    <value>Dagens Mål</value>
+  </data>
+  <data name="history_chart_month_title" xml:space="preserve">
+    <value>Siste 30 dager</value>
+  </data>
+  <data name="history_chart_today_title" xml:space="preserve">
+    <value>Idag</value>
+  </data>
+  <data name="history_chart_week_title" xml:space="preserve">
+    <value>Denne uken</value>
+  </data>
+  <data name="history_chart_generic_title" xml:space="preserve">
+    <value>Friske minutter</value>
+  </data>
+  <data name="history_chart_generic_title_today" xml:space="preserve">
+    <value>Total gange</value>
+  </data>
+  <data name="description_brisk_text" xml:space="preserve">
+    <value>Frisk gange gjør at du puster litt raskere og blir varmere. Det skal være anstrengende å holde en samtale gående.</value>
+    <comment>Tekst i Popup for å lese mer om frisk gange</comment>
+  </data>
+  <data name="description_brisk_title" xml:space="preserve">
+    <value>Hva er frisk gange?</value>
+    <comment>Tittel i Popup for å lese mer om frisk gange</comment>
+  </data>
+  <data name="description_normal_text" xml:space="preserve">
+    <value>Gå10 teller alt under 5 km/t som rolig gange. Rolig gange er mye bedre enn ingen gange – så totalt antall minutter har også betydning for helsa di. Kjenner du at pulsen går litt opp skal du gi deg selv en klapp på skuldra selv om appen ikke belønner deg med friske minutter og heiarop.</value>
+    <comment>Tekst i Popup for å lese mer om normal gange</comment>
+  </data>
+  <data name="description_normal_title" xml:space="preserve">
+    <value>Hva er rolig gange?</value>
+    <comment>Tittel i Popup for å lese mer om normal gange</comment>
+  </data>
+  <data name="navigation_achievements_title" xml:space="preserve">
+    <value>Dine prestasjoner</value>
+  </data>
+  <data name="navigation_goal_title" xml:space="preserve">
+    <value>Sett deg et mål!</value>
+  </data>
+  <data name="navigation_profile_title" xml:space="preserve">
+    <value>Profil</value>
+    <comment>ok</comment>
+  </data>
+  <data name="profile_setting_about_title" xml:space="preserve">
+    <value>Om Gå10</value>
+    <comment>ok</comment>
+  </data>
+  <data name="profile_setting_terms_title" xml:space="preserve">
+    <value>Vilkår</value>
+    <comment>ok</comment>
+  </data>
+  <data name="profile_name_header" xml:space="preserve">
+    <value>NAVN:</value>
+  </data>
+  <data name="profile_setting_credit" xml:space="preserve">
+    <value>Appen er levert av</value>
+    <comment>ok</comment>
+  </data>
+  <data name="profile_setting_notification_description" xml:space="preserve">
+    <value>Ha denne slått på, så får du ekstra hjelp til å nå målene dine.</value>
+  </data>
+  <data name="profile_setting_notification_title" xml:space="preserve">
+    <value>Få meldinger fra Gå 10</value>
+  </data>
+  <data name="about_1_text" xml:space="preserve">
+    <value>Gå10 er et enkelt verktøy for alle som trenger mer trim og vil ha litt drahjelp. Er du sprek og trener systematisk, bør du nok velge en annen app.</value>
+    <comment>ok</comment>
+  </data>
+  <data name="about_1_title" xml:space="preserve">
+    <value>Hvem passer appen best for?</value>
+    <comment>ok</comment>
+  </data>
+  <data name="about_2_text" xml:space="preserve">
+    <value>Frisk gange gjør at du puster litt raskere og blir varmere.  Det skal være litt anstrengende å holde en samtale gående. Fysisk form, vekt og andre forhold vil ha stor betydning for hvor raskt du må gå før pulsen går opp. Det viktige er at du kjenner at du må ta i litt. Det kan bety at du ikke får uttelling med ekstrapoeng og når målene hvis du går sakte. Gi deg selv en klapp på skuldra uansett!
+NB! For de fleste telefoner så vil målingen fungere best om du har den i lomma.</value>
+    <comment>ok</comment>
+  </data>
+  <data name="about_2_title" xml:space="preserve">
+    <value>Hva er frisk gange?</value>
+    <comment>ok</comment>
+  </data>
+  <data name="about_4_text" xml:space="preserve">
+    <value>Den vil derfor ikke gi deg ekstrapoeng for frisk gange når du går oppover  - og ikke uttelling for trapper. Selv om du anstrenger deg, går tempoet gjerne ned i bakker. Ikke bli skuffet om du ikke får registrert frisk gange. Så lenge du kjenner at du tar i, har det effekt.</value>
+    <comment>ok</comment>
+  </data>
+  <data name="about_4_title" xml:space="preserve">
+    <value>Appen måler ikke høydemetre</value>
+    <comment>ok</comment>
+  </data>
+  <data name="achievement_thirty_mins_hundred_days_description" xml:space="preserve">
+    <value>3x10 hver dag i 100 dager</value>
+  </data>
+  <data name="achievement_thirty_mins_hundred_days_description_achieved" xml:space="preserve">
+    <value>Du har oppnådd over 30 minutter hver dag i 100 dager!</value>
+  </data>
+  <data name="achievement_thirty_mins_hundred_days_health_description" xml:space="preserve">
+    <value>Holder du dette nivået sier statistikken at du får flere leveår – og mer futt og funksjon til å leve livet. Du gjør deg selv en fantastisk tjeneste. Kroppen din er “yngre” enn når du startet - kanskje kjenner du det og?</value>
+  </data>
+  <data name="achievement_thirty_mins_hundred_days_title" xml:space="preserve">
+    <value>Diamantprisen</value>
+  </data>
+  <data name="achievement_twenty_mins_sixty_days_description" xml:space="preserve">
+    <value>2x10 hver dag i to måneder</value>
+  </data>
+  <data name="achievement_twenty_mins_sixty_days_description_achieved" xml:space="preserve">
+    <value>Du har oppnådd ditt over 20 minutter hver dag i to måneder!</value>
+  </data>
+  <data name="achievement_twenty_mins_sixty_days_health_description" xml:space="preserve">
+    <value>Ofte kommer livet i veien for endringer du ønsker deg. Ikke nå lenger. Du har bevist at du kan lykkes med å stake ut en stø kurs mot bedre helse og trivsel.</value>
+  </data>
+  <data name="achievement_twenty_mins_sixty_days_title" xml:space="preserve">
+    <value>Dobbelt gull</value>
+  </data>
+  <data name="permission_fine_location" xml:space="preserve">
+    <value>▶ Nøyaktig lokasjon</value>
+    <comment>Denne tillatelsen trenger vi for å kunne måle hvor raskt du går.</comment>
+  </data>
+  <data name="permission_google_fitness" xml:space="preserve">
+    <value>▶ Google fitness</value>
+    <comment>Denne tillatelsen trenger vi for å kunne hente ut historikken over din gange.</comment>
+  </data>
+  <data name="permission_ios_location" xml:space="preserve">
+    <value>▶ Sted - Alltid</value>
+    <comment>Brukes for å hente kjøre innhenting av gangdata i bakgrunnen</comment>
+  </data>
+  <data name="about_3_text_android" xml:space="preserve">
+    <value>Vi måler din gange ved å la Google Fit samle inn nødvendig data fra telefonens sensorer. Det gjør innsamlingen mer batterieffektiv og nøyaktig.</value>
+    <comment>for android</comment>
+  </data>
+  <data name="about_3_title" xml:space="preserve">
+    <value>Aktivitetsmåling</value>
+  </data>
+  <data name="notification_achievement_unlocked" xml:space="preserve">
+    <value>Du har klart en ny prestasjon!</value>
+  </data>
+  <data name="notification_goal_reached" xml:space="preserve">
+    <value>Du har nådd dagens mål!</value>
+  </data>
+  <data name="notification_title" xml:space="preserve">
+    <value>Gå10</value>
+  </data>
+  <data name="about_3_text_ios" xml:space="preserve">
+    <value>Vi måler din gange ved å la Helse-integrasjonen samle inn nødvendig data fra telefonens sensorer. Det gjør innsamlingen mer batterieffektiv og nøyaktig.</value>
+    <comment>for ios</comment>
+  </data>
+  <data name="history_todays_goal_completed_text" xml:space="preserve">
+    <value>Dagens mål er fullført.</value>
+  </data>
+  <data name="history_todays_goal_completed_title" xml:space="preserve">
+    <value>Bra jobba {name}!</value>
+  </data>
+  <data name="bulletin_midnight_explanation_description" xml:space="preserve">
+    <value>Datainnsamlingen startet fra midnatt, så ikke bli overrasket hvis du ser at det allerede har blitt logget noe gange.</value>
+  </data>
+  <data name="bulletin_midnight_explanation_title" xml:space="preserve">
+    <value>Informasjon</value>
+  </data>
+  <data name="bulletin_achievement_title" xml:space="preserve">
+    <value>Gratulerer!</value>
+    <comment>Tittel i bulletin</comment>
+  </data>
+  <data name="permission_title" xml:space="preserve">
+    <value>Vi trenger tillatelser for å vise deg dine data</value>
+  </data>
+  <data name="history_loading_message" xml:space="preserve">
+    <value>Vent litt. Vi henter inn din registrerte aktivitet.</value>
+  </data>
+  <data name="history_loading_message_error" xml:space="preserve">
+    <value>Beklager, vi finner ikke noen aktivitet.</value>
+  </data>
+  <data name="history_loading_help_item1" xml:space="preserve">
+    <value>Hvis du har smartwatch - pass på at bluetooth er på</value>
+  </data>
+  <data name="history_loading_help_item2" xml:space="preserve">
+    <value>Pass på å lade batteriet</value>
+  </data>
+  <data name="history_loading_help_text_iOS" xml:space="preserve">
+    <value>Gå10 henter data fra HealthKit. Sørg for at Gå 10 er tillatt å hente data.</value>
+    <comment>Spesifikk error tekst for iOS (TODO)</comment>
+  </data>
+  <data name="history_loading_help_title" xml:space="preserve">
+    <value>Ingen registrert gange?</value>
+  </data>
+  <data name="sharing_dialog_title" xml:space="preserve">
+    <value>Del din fremgang</value>
+  </data>
+  <data name="sharing_history_content" xml:space="preserve">
+    <value>Jeg har gått {0} friske og {1} normale minutter i dag!</value>
+    <comment>Brukes til deling med standardtekst</comment>
+  </data>
+  <data name="sharing_history_title" xml:space="preserve">
+    <value>Gå 10</value>
+    <comment>Brukes til deling med standardtekst</comment>
+  </data>
+  <data name="sharing_url" xml:space="preserve">
+    <value>https://helsedirektoratet.no/</value>
+  </data>
+  <data name="goals_page_confirm_goal" xml:space="preserve">
+    <value>Velg mål</value>
+  </data>
+  <data name="profile_setting_delete_confirm" xml:space="preserve">
+    <value>Er du sikker på at du vil slette ALL tidligere historikk?</value>
+  </data>
+  <data name="profile_setting_delete_title" xml:space="preserve">
+    <value>Slett dine data</value>
+  </data>
+  <data name="history_loading_help_text_android" xml:space="preserve">
+    <value>Gå10 henter data fra Google Fitness API. Sørg for at Gå 10 er tillatt å hente data.</value>
+    <comment>Spesifikk error tekst for Android (TODO)</comment>
+  </data>
+  <data name="permission_ios_motion" xml:space="preserve">
+    <value>▶ Bevegelse og kondisjon</value>
+    <comment>Brukes for å kunne hente ut gangdata.</comment>
+  </data>
+  <data name="history_loading_message_error_tips" xml:space="preserve">
+    <value>tips</value>
+  </data>
+  <data name="onboarding_terms_accept_terms" xml:space="preserve">
+    <value>vilkårene</value>
+  </data>
+  <data name="history_todays_graph_fallback" xml:space="preserve">
+    <value>Her kommer oversikt over dagens gange etter du har gått litt</value>
+  </data>
+  <data name="onboarding_last_extra_text" xml:space="preserve">
+    <value>Husk å ta med deg telefonen i lommen!</value>
+  </data>
+  <data name="accessibility_history_daily_goal_label" xml:space="preserve">
+    <value>Fremgang mot dagens mål</value>
+  </data>
+  <data name="accessibility_history_daily_goal_progress" xml:space="preserve">
+    <value>Du har gått {0} av {1} minutter frisk gange</value>
+  </data>
+  <data name="accessibility_history_daily_goal_reached" xml:space="preserve">
+    <value>Gratulerer! Du har nådd dagens mål på {0} minutter</value>
+  </data>
+  <data name="accessibility_history_hourly_breakdown_label" xml:space="preserve">
+    <value>Oversikt over dagens gange</value>
+  </data>
+  <data name="accessibility_history_monthly_breakdown_label" xml:space="preserve">
+    <value>Oversikt over siste 30 dagers frisk gange</value>
+  </data>
+  <data name="accessibility_history_weekly_breakdown_label" xml:space="preserve">
+    <value>Oversikt over denne ukens frisk gange</value>
+  </data>
+  <data name="history_loading_message_complete" xml:space="preserve">
+    <value>Aktivitet funnet</value>
+  </data>
+  <data name="history_loading_message_label" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="accessibility_achievement_item_label" xml:space="preserve">
+    <value>Prestasjon</value>
+  </data>
+  <data name="accessibility_onboarding_complete_button_text" xml:space="preserve">
+    <value>Ferdig</value>
+  </data>
+  <data name="accessibility_history_button_title" xml:space="preserve">
+    <value>Historikk</value>
+  </data>
+  <data name="accessibility_welcome_text" xml:space="preserve">
+    <value>Hei {0}!</value>
+  </data>
+  <data name="accessibility_set_goal_description" xml:space="preserve">
+    <value>Du har nå satt deg et nytt mål: {0}</value>
+  </data>
+  <data name="accessibility_set_goal_title" xml:space="preserve">
+    <value>Nytt mål</value>
+  </data>
+  <data name="notification_google_fit_auth_failed" xml:space="preserve">
+    <value>Du må logge inn i Google Fit for å fortsette å hente gangdata.</value>
+  </data>
+  <data name="navigation_back" xml:space="preserve">
+    <value>Tilbake</value>
+  </data>
+  <data name="onboarding_height_title" xml:space="preserve">
+    <value>Hvor høy er du?</value>
+  </data>
+  <data name="achievement_tier_days_in_a_row" xml:space="preserve">
+    <value>Dager på rad:</value>
+  </data>
+  <data name="achievement_tier_5days_in_a_row" xml:space="preserve">
+    <value>Antall 5 på rad:</value>
+  </data>
+  <data name="achievement_tier_bronze" xml:space="preserve">
+    <value>Bronse</value>
+  </data>
+  <data name="achievement_tier_goals" xml:space="preserve">
+    <value>Antall mål hittil:</value>
+  </data>
+  <data name="achievement_tier_gold" xml:space="preserve">
+    <value>Gull</value>
+  </data>
+  <data name="achievement_tier_minutes" xml:space="preserve">
+    <value>Antall minutter gått idag:</value>
+  </data>
+  <data name="achievement_tier_minutes_total" xml:space="preserve">
+    <value>Antall ganger:</value>
+  </data>
+  <data name="achievement_tier_silver" xml:space="preserve">
+    <value>Sølv</value>
+  </data>
+  <data name="achievement_title_5days" xml:space="preserve">
+    <value>5-Dagerskongen</value>
+  </data>
+  <data name="achievement_title_5days_description" xml:space="preserve">
+    <value>Oppnå ditt daglige mål 5 dager på rad</value>
+  </data>
+  <data name="achievement_title_reachedgoal" xml:space="preserve">
+    <value>Helt om dagen</value>
+  </data>
+  <data name="achievement_title_reachedgoal_description" xml:space="preserve">
+    <value>Oppnå ditt daglige mål</value>
+  </data>
+  <data name="achievement_title_thirtyminutes" xml:space="preserve">
+    <value>Minuttsamleren</value>
+  </data>
+  <data name="achievement_title_thirtyminutes_description" xml:space="preserve">
+    <value>Gå 30 min i løpet av en dag, uansett tempo</value>
+  </data>
+  <data name="achievement_title_5days_description_completed" xml:space="preserve">
+    <value>Du har oppnådd ditt daglige mål 5 dager på rad</value>
+  </data>
+  <data name="achievement_title_reachedgoal_description_completed" xml:space="preserve">
+    <value>Du har oppnådd ditt daglige mål</value>
+  </data>
+  <data name="achievement_title_thirtyminutes_description_completed" xml:space="preserve">
+    <value>Du har fullført 30 min i løpet av en dag, uansett tempo</value>
+  </data>
+  <data name="achievement_5days_unlocked_bronze" xml:space="preserve">
+    <value>Hallo! Dette gikk jo superbra! Jekker du opp til sølv?</value>
+  </data>
+  <data name="achievement_5days_unlocked_gold" xml:space="preserve">
+    <value>Vi bøyer oss i støvet. Nå har du virkelig bevist at du kan!</value>
+  </data>
+  <data name="achievement_5days_unlocked_silver" xml:space="preserve">
+    <value>Heia deg, sier vi bare! Du har noe veldig bra på gang!</value>
+  </data>
+  <data name="achievement_reachedgoal_unlocked_bronze" xml:space="preserve">
+    <value>Grattis! Du er i gang – dette kan bli kjempebra!</value>
+  </data>
+  <data name="achievement_reachedgoal_unlocked_gold" xml:space="preserve">
+    <value>Fantastisk! Du er på god vei mot noe virkelig bra!</value>
+  </data>
+  <data name="achievement_reachedgoal_unlocked_silver" xml:space="preserve">
+    <value>Vel blåst! Du er i siget – kanskje merker du forskjell allerede?</value>
+  </data>
+  <data name="achievement_thirtyminutes_unlocked_bronze" xml:space="preserve">
+    <value>Gratulerer! Dette er bedre enn tran!</value>
+  </data>
+  <data name="achievement_thirtyminutes_unlocked_gold" xml:space="preserve">
+    <value>King Kong! Dette likner på et nytt og bedre liv!</value>
+  </data>
+  <data name="achievement_thirtyminutes_unlocked_silver" xml:space="preserve">
+    <value>Dra meg baklengs! Du mener alvor!</value>
+  </data>
+  <data name="onboarding_statistics_accept" xml:space="preserve">
+    <value>Registrere anonym statistikk</value>
+  </data>
+  <data name="profile_setting_statistics_title" xml:space="preserve">
+    <value>Registrer statistikk</value>
+  </data>
+  <data name="profile_setting_statistics_description" xml:space="preserve">
+    <value>Anonym statistikk bidrar til å forbedre tjenesten.</value>
+  </data>
+  <data name="profile_setting_height_request" xml:space="preserve">
+    <value>Vi ønsker stadig å forbedre appen. For å kunne oppnå mer nøyaktig målinger ønsker vi at du oppgir høyden din under Profil.</value>
+  </data>
+  <data name="profile_setting_height_request_title" xml:space="preserve">
+    <value>Høydemåling</value>
+  </data>
+  <data name="profile_setting_give_feedback" xml:space="preserve">
+    <value>Gi tilbakemelding</value>
+  </data>
+  <data name="permission_activity_recognition" xml:space="preserve">
+    <value>▶ Aktivitetsgjenkjenning</value>
+    <comment>Denne tillatelsen trenger vi for å kunne gjenkjenne gange</comment>
+  </data>
+</root>
